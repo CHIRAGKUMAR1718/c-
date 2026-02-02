@@ -10,6 +10,7 @@ public:
         return dp[i][j]=min(x,y);
     }
     int minInsertions(string s) {
+        // hello 
         int n=s.size();
         memset(dp,-1,sizeof(dp));
         return f(0,n-1,s);
